@@ -36,8 +36,8 @@ _______|_______|_______
 Pode optar por realizar os prints de forma manual ou tentar fazer uso de estrutura de repetição FOR
 
 ```python
-def montarTabuleiro():
-    print("tabuleiro")
+def buildBoard():
+    print("board")
 ```
 
 ## Registro de jogadas
@@ -45,7 +45,7 @@ def montarTabuleiro():
 Através do comando de entrada de dados, salvar as jogadas de forma que seja possível validar se o jogo acabou
 
 ```python
-def novaJogada():
-    jogada = input("Digite sua proxima jogada: ")
+def nextMove():
+    playerMove = input("Qual o proximo movimento? ")
 
 ```
